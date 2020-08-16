@@ -1,0 +1,96 @@
+.Card {
+	padding: 10px;
+	width: 300px;
+	height: 330px;
+
+	background: #191919;
+	border: 2px solid #323232;
+	box-sizing: border-box;
+	box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.03), 0px 51.1542px 51.419px rgba(0, 0, 0, 0.0182814),
+		0px 31.2614px 32.7222px rgba(0, 0, 0, 0.0145485), 0px 19.7px 20.341px rgba(0, 0, 0, 0.0131802),
+		0px 12.1574px 11.8781px rgba(0, 0, 0, 0.012699), 0px 6.89112px 6.09643px rgba(0, 0, 0, 0.0121579),
+		0px 3.01109px 2.28593px rgba(0, 0, 0, 0.0102347);
+	border-radius: 20px;
+	margin-bottom: 30px;
+	margin-right: 30px;
+	width: 22%;
+}
+
+.cardHeader {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.Section {
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.Section p:first-of-type {
+	border-color: rgb(134, 129, 129);
+}
+
+.Section > p {
+	font-size: small;
+	border: 1px solid #323232;
+	border-radius: 20px;
+	padding: 6px 12px;
+}
+
+.superpowers,
+.personalAttributes {
+	margin-left: 0.8rem;
+	margin-top: 10px;
+	color: white;
+	font-size: 0.8rem;
+}
+
+.title {
+	font-size: 0.7rem;
+	color: rgb(99, 95, 95);
+	margin-bottom: 10px;
+}
+
+.personalAttributes {
+	margin-bottom: 15px;
+}
+
+.range {
+	width: 100%;
+
+	padding: 0 5px;
+}
+
+.cardFooter {
+	display: flex;
+	justify-content: space-between;
+	font-size: 0.8rem;
+}
+.cardFooter p:first-of-type {
+	margin-left: 5px;
+	color: #0984e3;
+}
+
+.cardFooter p:last-of-type {
+	color: rgb(99, 95, 95);
+}
+
+@media (max-width: 1356px) {
+	.Card {
+		width: 330px;
+	}
+}
+@media (max-width: 500px) {
+	.Card {
+		width: 100%;
+		height: auto;
+	}
+}
+@media (max-width: 782px) {
+	.Card {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}

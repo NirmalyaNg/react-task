@@ -1,0 +1,42 @@
+.Sidebar {
+	width: 18%;
+	height: 130vh;
+	background-color: #191919;
+	padding: 1.2rem;
+	text-align: center;
+	border-right: 0.5px solid #323232;
+}
+
+.Sidebar .Logo {
+	width: 100px;
+}
+
+@media (max-width: 1300px) {
+	.Sidebar {
+		width: 25%;
+	}
+}
+@media (max-width: 1000px) {
+	.Sidebar {
+		position: fixed;
+		width: 280px;
+		max-width: 70%;
+		height: 100%;
+		left: 0;
+		top: 0;
+		z-index: 200;
+		box-sizing: border-box;
+		transition: transform 0.3s ease-out;
+		border-right: 1px solid blue;
+	}
+	.Sidebar .Logo {
+		width: 60px;
+	}
+	.Open {
+		transform: translateX(0);
+	}
+
+	.Close {
+		transform: translateX(-100%);
+	}
+}

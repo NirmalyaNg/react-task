@@ -1,0 +1,36 @@
+.Group {
+	width: 70%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-left: 15%;
+
+	margin-bottom: 30px;
+	border-bottom: 0.1px solid #323232;
+}
+
+.Group:last-of-type {
+	margin-bottom: 100px;
+}
+
+.Group > p {
+	margin-bottom: 10px;
+	align-self: flex-start;
+}
+
+.Group p:last-of-type {
+	margin-bottom: 40px;
+	border-bottom: none;
+}
+
+.noborder {
+	border-bottom: none;
+}
+
+@media (max-width: 500px) {
+	.Group {
+		margin-bottom: 8px;
+	}
+}

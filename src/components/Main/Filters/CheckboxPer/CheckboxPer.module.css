@@ -1,0 +1,24 @@
+.title {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.CheckboxPer {
+	display: flex;
+	width: 25%;
+}
+
+.input {
+	margin-right: 1px;
+}
+
+@media (max-width: 600px) {
+	.CheckboxPer {
+		margin-left: -4px;
+	}
+
+	.CheckboxPer span {
+		font-size: smaller;
+		width: 10%px;
+	}
+}

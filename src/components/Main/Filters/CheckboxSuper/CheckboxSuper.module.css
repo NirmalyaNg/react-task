@@ -1,0 +1,28 @@
+.title {
+	margin-left: 5px;
+	margin-right: 10px;
+}
+
+.CheckboxSuper {
+	width: 25%;
+	display: flex;
+}
+
+.input {
+	margin-left: 2px;
+}
+
+.CheckboxSuper span {
+	margin-right: 2px;
+}
+
+@media (max-width: 600px) {
+	.CheckboxSuper {
+		margin-left: -4px;
+	}
+
+	.CheckboxSuper span {
+		font-size: smaller;
+		width: 10%px;
+	}
+}
